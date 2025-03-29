@@ -81,6 +81,64 @@ Sigue las instrucciones en pantalla y el sistema generará automáticamente los 
     Python 3.6+
 
     Librerías estándar de Python (json, os, datetime)
+    
+🚀 Ejemplo de salida    
+
+    ==================================================
+      SISTEMA DE GESTIÓN DE VENTA BRL/ARS      
+    ==================================================
+    
+    Ingrese el código del cliente: 1425
+    Ingrese el apellido del cliente: gonzález
+    Ingrese el nombre del cliente: maría
+    
+    --------------------------------------------------
+                   DATOS DE LA OPERACIÓN              
+    --------------------------------------------------
+    
+    Ingrese la cotización de BRL a USD: 5.2
+    Ingrese la cotización de USD a ARS: 210.5
+    Ingrese el importe en BRL que desea vender: 1000
+    Ingrese la ganancia en BRL por cada USD vendido: 0.1
+    Ingrese la ganancia en ARS por cada USD vendido: 20.5
+    
+    ==================================================
+                 PRESUPUESTO PARA EL CLIENTE          
+    ==================================================
+    
+    Estimado/a María González,
+    
+    Agradecemos su consulta y le presentamos el detalle de su presupuesto para la compra de 1.000 BRL:
+    
+    - *Moneda*: BRL
+    - *Importe de la operación*: 1.000 BRL
+    - *Tipo de cambio BRL a ARS*: 40,48 ARS por BRL
+    - *Total a abonar en pesos argentinos*: 40.480,77 ARS
+    
+    Quedamos a su disposición para cualquier consulta adicional o para proceder con la operación.
+    
+    Atentamente,
+    *Su equipo de operaciones de Gwinn*
+    
+    
+    ==================================================
+                   TICKET DE OPERACIÓN               
+    ==================================================
+    TC010025 - 30/03 - González María - VENTA x BRL 1.000.
+    
+    ==================================================
+                     RESUMEN EJECUTIVO               
+    ==================================================
+    
+    CODIGO: 1425
+    NOMBRE: María
+    APELLIDO: González
+    ENTREGAMOS: 1.000 BRL
+    RECIBIMOS: 40.480,77 ARS
+    TC: 40,48 ARS por BRL
+    
+    
+    Datos guardados en: Operaciones de venta/2023-03-30_16-45-22_GONZÁLEZ_MARÍA_venta_1000BRL.json
 
 📜 Notas
 

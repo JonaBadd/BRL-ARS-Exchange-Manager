@@ -134,7 +134,7 @@ Sigue las instrucciones en pantalla y el sistema generará automáticamente los 
     Quedamos a su disposición para cualquier consulta adicional o para proceder con la operación.
     
     Atentamente,
-    *Su equipo de operaciones de Gwinn*
+    *Su equipo de operaciones*
     
     
     ==================================================

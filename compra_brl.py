@@ -172,8 +172,8 @@ def main():
     cotizacion_brl_usd = float(input("\nIngrese la cotización de BRL a USD: "))
     cotizacion_usd_ars = float(input("Ingrese la cotización de USD a ARS: "))
     importe_brl = float(input("Ingrese el importe en BRL que desea comprar: "))
-    ganancia_brl = float(input("Ingrese la ganancia en BRL por cada USD vendido: "))
-    ganancia_ars = float(input("Ingrese la ganancia en ARS por cada USD vendido: "))
+    ganancia_brl = float(input("Ingrese la ganancia en BRL por cada USD comprado: "))
+    ganancia_ars = float(input("Ingrese la ganancia en ARS por cada USD comprado: "))
     
     # Procesamiento
     resultados = calcular_operacion(

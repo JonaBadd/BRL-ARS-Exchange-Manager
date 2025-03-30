@@ -119,7 +119,7 @@ def generar_mensaje_cliente(nombre, apellido, importe_brl, tipo_cambio, total_ar
     return f"""
 Estimado/a {nombre} {apellido},
 
-Agradecemos su consulta y le presentamos el detalle de su presupuesto para la compra de {formatear_numero_mensaje(importe_brl)} BRL:
+Agradecemos su consulta y le presentamos el detalle de su presupuesto para la venta de {formatear_numero_mensaje(importe_brl)} BRL:
 
 - *Moneda*: BRL
 - *Importe de la operación*: {formatear_numero_mensaje(importe_brl)} BRL
